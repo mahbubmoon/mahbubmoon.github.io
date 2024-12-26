@@ -3,10 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My GitHub Pages Site</title>
+    <title>Mahbubur Rahman - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: #575757;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #f4f4f4;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project h3 {
+            margin: 0;
+            padding: 1rem;
+            background: #4CAF50;
+            color: #fff;
+        }
+
+        .project p {
+            padding: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my GitHub Pages site.</p>
+    <header>
+        <h1>Mahbubur Rahman</h1>
+        <p>Software Engineer | AI/ML Enthusiast | Scalable Systems Architect</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="hero">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate software engineer with over 9 years of experience in .NET, Angular, and scalable system design.
+            My expertise lies in solving complex problems, optimizing performance, and building efficient solutions that drive impact.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>MetLife Optimization</h3>
+                <p>Collaboratively optimized long-running processes for MetLife, improving system efficiency and scalability.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>PAPS Deployment</h3>
+                <p>Managed the production deployment and ensured post-production stability for a critical insurance service application.</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>AI-Driven Insights</h3>
+                <p>Developed machine learning enhancements to improve the efficiency of existing algorithms during my thesis work.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Feel free to reach out to me for collaborations or inquiries.
+        </p>
+        <p>Email: <a href="mailto:mahbubur.rahman@example.com">mahbubur.rahman@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/mahbuburrahman" target="_blank">linkedin.com/in/mahbuburrahman</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mahbubur Rahman. Built with passion and purpose.</p>
+    </footer>
 </body>
 </html>
